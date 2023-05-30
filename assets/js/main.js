@@ -48,6 +48,16 @@ $(document).ready(function () {
             }
         ]
     });
+
+    $('.slick-as').slick({
+        dots:false,
+        nextArrow: false,
+        prevArrow: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+      });
 });
 
 document.addEventListener('scroll', () => {

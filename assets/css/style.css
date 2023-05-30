@@ -40,16 +40,11 @@
     .popup-image{
         display: none;
     }
-    .mobile-imgPop img{
-        transition: z-index 100ms,box-shadow 150ms, transform 350ms;
-        box-shadow:10px 8px 10px rgba(0,0,0,25%);
-    }
-      
-    .mobile-imgPop img:hover{
-        z-index:0;
-        box-shadow:10px 8px 5px rgba(0,0,0,35%);
-        transform: scale(1.4);
-    }
+
+}
+.wow a {
+    text-decoration: none;
+    list-style: none;
 }
 
 .image-one {
@@ -186,4 +181,40 @@ nav a{
     z-index:0;
     box-shadow:10px 8px 5px rgba(0,0,0,35%);
     transform: scale(1.2);
+}
+.slick-dots {
+    display: flex;
+
+}
+.room-available {
+    padding-left: 50px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.room-image img {
+    height: 20rem;
+    width: 100%;
+}
+.service-item {
+    height: 320px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
+}
+.service-item .service-icon {
+    margin: 0 auto 30px auto;
+    width: 65px;
+    height: 65px;
+    transition: .5s;
+}
+.about-icon {
+    color: #072957;
+}
+.night-badge {
+    background-color: #072957;
 }
